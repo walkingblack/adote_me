@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote-me</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><img src="./images/adocao pet.png" height="25x"> Adote-me </h1>
+            <nav>
+                <ul>
+                    <li><a href="#galeria">Animais para adotar</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#" class="botao-doar">Doar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="destaque">
+            <img src="./images/dog para adocao.jpg" alt="Cachorro para adoção">
+            <p>"Um olhar que pede um lar, um coração que merece amor."</p>
+        </section>
+
+        <!--- Descrição sobre a empresa --->
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>A "Adote-me" é uma organização dedicada a encontrar lares amorosos para animais que precisam de uma segunda chance. Acreditamos que cada pet merece um lar feliz e seguro.</p>
+
+            <h3>Nossa Missão</h3>
+            <ul>
+                <li>Resgatar e reabilitar animais em situação de vulnerabilidade.</li>
+                <li>Conectar pets incríveis com famílias que buscam um companheiro.</li>
+                <li>Promover a adoção responsável e o bem-estar animal.</li>
+            </ul>
+
+            <h3>Nossos Valores</h3>
+            <ul>
+                <li>Amor e respeito por todos os animais.</li>
+                <li>Transparência e responsabilidade em nossas ações.</li>
+                <li>Compromisso com o bem-estar animal.</li>
+            </ul>
+
+            <p>Junte-se a nós nessa missão de amor e cuidado com os animais!</p>
+        </section>
+    </main
+
+        
+        <section class="galeria">
+            <h2>Cachorros para adoção</h2>
+            <div class="grid-galeria">
+                <img src="./images/Filhote_2.jpg" alt="Labrador Filhote">
+                <img src="./images/Filhote_1.jpg" alt="Cachorro 2">
+                <img src="./images/Poodle filhote.jpg" alt="Poodle filhote">
+                <img src=".//images/Dog 4.jpg" alt="Cachorro 4">
+                <img src="./images/Dog 5.jpg" alt="Cachorro 5">
+                <img src="./images/filhote.jpg" alt="Cachorro 6">
+                <img src=".//images/Shihtzu.jpg" alt="Cachorro 7">
+                <img src="./images/Filhote_3.jpg" alt="Dachshund Filhote">
+                <img src="./images/Cavalier King.jpg" alt="Cavlier King Filhote">
+                <img src="./images/Pug filhote.jpg" alt="Poodle Filhote">
+            </div>
+        </section>
+    </main>
+
+    <!---- Formulário para adoção --->
+    <form action="/enviar-contato" method="post" id="contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+    
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" required></textarea>
+    
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <!--- Rodapé da página --->
+    <footer>
+        <p>&copy; 2024 Adote-me | Desenvolvido por Antonio Jesuz. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
